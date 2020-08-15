@@ -1,4 +1,4 @@
-# Redis Metrics Exporter
+# RediSearch Metrics Exporter
 
 Prometheus exporter for RediSearch metrics.\
 Supports RediSearch v1.4, v1.6, >=v2.0

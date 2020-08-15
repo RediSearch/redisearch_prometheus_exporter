@@ -1,0 +1,12 @@
+redisearch_prometheus_exporter
+coverage.out
+coverage.txt
+dist/
+pkg/
+src/
+.build/
+vendor/**
+vendor
+.DS_Store
+.idea
+*.rdb

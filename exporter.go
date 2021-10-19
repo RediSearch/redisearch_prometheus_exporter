@@ -504,7 +504,7 @@ func (e *Exporter) scrapeRedisHost(ch chan<- prometheus.Metric) error {
 	for _, moduleRaw := range resM {
 		moduleInfo, _ := redis.Strings(moduleRaw, nil)
 		moduleName := moduleInfo[1]
-		if moduleName == "ft" {
+		if moduleName == "search" {
 			rediSearchPresent = true
 		}
 	}
